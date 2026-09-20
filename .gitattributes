@@ -1,0 +1,12 @@
+# Default behavior
+# Normalize line endings
+# Exclude build artifacts
+src/**/*.ts linguist-detectable
+public/** linguist-vendored
+
+public/**/*.html linguist-vendored   
+
+*.map linguist-generated
+
+src/*.ts linguist-detectable
+*.gif binary
